@@ -1,8 +1,28 @@
+body{
+    margin:0;
+    padding:0
+}
 header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    font-weight:bold;
+    background:rgb(36, 133, 202);
+    color:white;
+    margin: 0;
 }
+
 ul{
     display: flex;
     list-style: none;
     gap: 5px;
+}
+
+.card-text{
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+line-height: 1.5;
+
 }
